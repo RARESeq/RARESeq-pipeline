@@ -258,8 +258,7 @@ The pipeline needs 3 mandatory and 1 optional input files:
         #Downsampling parameters
         'downsampling_breaks' : [x for x in [1e6, 2.5e6, 5e6, 1e7, 2.5e7, 5e7, 1e8, 2.5e8, 5e8]],
 
-All these files should be available in the same folder,
-e.g. `/silo5/cfRNA/v3.3/HiSeq1805/`.
+All these files should be available in the same folder.
 
 ### 2.3 Running the Pipeline
 
